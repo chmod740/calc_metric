@@ -1,4 +1,4 @@
-function [] = test_metrics( index_file_path， out_file_path )
+function [] = test_metrics( index_file_path, out_file_path )
 %MAIN Summary of this function goes here
 %   Detailed explanation goes here
     fp = fopen(index_file_path, 'r');
