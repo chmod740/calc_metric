@@ -1,3 +1,13 @@
-# calc_metric
-calc_metric
-指标计算脚本封装，develop by {hupeng, zhangpeng}.
+# PP-Metric-Lib
+### 1. Speech Enhancement Metric
+STOI
+PESQ
+SNR
+SDR
+### 2. Speaker Recognition Metric
+minCdet(minDCF)
+Cllr
+EER
+
+### About
+Developed by {hupeng, zhangpeng}.
