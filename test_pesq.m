@@ -14,13 +14,13 @@ function [] = test_pesq( index_file_path )
     count = 0;
     while tline ~= -1
         count = count + 1;
-        disp(tline);
+        % disp(tline);
         [wave, wave_sr] = audioread(tline);
         wave_ref = wave(:, 2);
         wave_est = wave(:, 3);
         est_pesq = pesq(wave_ref, wave_est, 16000);
         sum_est_pesq = sum_est_pesq + est_pesq;        
-        disp(sum_est_pesq / count);
+        % disp(sum_est_pesq / count);
         % S = strsplit(tline);
         % disp(S(1));
         % S1 = char(S(1));
